@@ -1,47 +1,20 @@
 # Jules On The Move Website
 
-A fast, static, multi-page real estate lead-generation website for San Antonio search traffic and brand presentation. No framework, build command, database, or package installation is required.
+## Replace files in GitHub
+1. Download and unzip the package.
+2. Open your GitHub repository.
+3. Delete the old website files and folders from the repository root, except a custom domain file or unrelated repository administration files you intentionally maintain.
+4. Upload every item inside `jules-on-the-move-site` to the repository root. Do not upload the outer folder as an extra nesting level.
+5. Commit with the message `Update branding and TREC notice links`.
+6. Wait for deployment, then test the homepage, every navigation link, both TREC links, phone, email, and the lead form on desktop and mobile.
 
-## One-step deployment
+## Production details
+- Domain: https://julesonthemove.com
+- Phone: (636) 288-5677
+- Email: juliesturniolo@jbgoodwin.com
+- Brokerage: JBGoodwin REALTORS®, 607 Sonterra Blvd., Suite 108, San Antonio, Texas 78258
+- IABS: https://drive.google.com/file/d/1gzOwN8vG0pviB8qt_tGgsAUsEt-k9j2d/view?usp=sharing
+- Consumer Protection Notice: https://www.trec.texas.gov/forms/consumer-protection-notice
 
-Copy **all files and folders inside this directory** into the root of your GitHub repository, then deploy the repository as a static site. For Netlify, the included `netlify.toml` publishes the repository root. For GitHub Pages, enable Pages for the repository root.
-
-## Required replacements before publishing
-
-Use repository-wide search and replace:
-
-- `YOUR-DOMAIN.com` → your production domain, without a trailing slash
-- `PHONE_PLACEHOLDER` → your business phone
-- `EMAIL_PLACEHOLDER` → your business email
-- Replace the footer disclosure with brokerage-approved legal language and license information
-- Connect the form handler in `assets/site.js` to your approved CRM, email, or form service
-- Review `privacy/index.html` after analytics, advertising, CRM, and form tools are selected
-
-Do not publish claims, awards, ratings, sales volume, testimonials, or service areas unless they are accurate, current, documented, and brokerage-approved.
-
-## Architecture
-
-- `/index.html` — branded conversion homepage
-- `/buy-a-home-san-antonio/` — buyer-intent landing page
-- `/sell-my-home-san-antonio/` — seller-intent landing page
-- `/san-antonio-relocation-realtor/` — relocation landing page
-- `/san-antonio-real-estate-investing/` — investor-intent landing page
-- `/san-antonio-neighborhoods/` — neighborhood hub
-- `/stone-oak-homes-for-sale/` — sample neighborhood landing page
-- `/contact/` — lead conversion page
-- `/privacy/` — privacy starter page
-- `/assets/` — shared CSS, JavaScript, and portrait
-- `sitemap.xml`, `robots.txt` — crawler discovery
-- `netlify.toml` — static publishing and security headers
-
-## SEO included
-
-Each indexable page has a unique title, meta description, canonical URL, Open Graph metadata, semantic headings, internal links, descriptive URL slug, and `RealEstateAgent` JSON-LD. The site also includes a sitemap, robots file, responsive layout, image dimensions, and accessible navigation.
-
-## Content expansion
-
-Add only substantial local pages that answer a distinct search need. Duplicate a landing-page folder, rewrite the title, description, H1, body, FAQ, internal links, canonical URL, and schema description. Do not create thin pages by swapping only a neighborhood name. Add the new URL to `sitemap.xml`.
-
-## Image
-
-`assets/julie-professional.png` is used throughout the website. Replace it using the same filename to update every page automatically. Keep the image optimized and preserve the current dimensions or aspect ratio.
+## Compliance review required before launch
+This implementation adds prominent homepage links with TREC-prescribed labels, makes the broker identification larger than all contact information, and repeats both notices in the footer. It is not a legal certification. Have JBGoodwin REALTORS® approve the site, the `Jules On The Move` advertising name, brokerage disclosure, logo use, and final notice placement before publication. Confirm the IABS Google Drive link remains publicly viewable without sign-in.

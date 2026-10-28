@@ -1,20 +1,12 @@
-# OS and editor files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
-
-# Secrets and local configuration
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-
-# Build/dependency output if tooling is added later
 node_modules/
 dist/
-.cache/
-
-# Logs
+.vscode/
+.idea/
 *.log
