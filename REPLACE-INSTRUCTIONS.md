@@ -1,12 +1,8 @@
-# Replace the current GitHub website
+# Homepage changelog patch
 
-1. Download and unzip this package.
-2. In GitHub, create a backup branch or download the current repository before replacement.
-3. Open the repository root for `jasturni-wq/Jules-on-the-move`.
-4. Delete the current website files and folders from the default branch. Keep any repository settings; they are not files.
-5. Upload every file and folder inside `Jules-on-the-move-rewrite` to the repository root. Do not upload the outer folder as an extra level.
-6. Commit with: `Rewrite site for conversion SEO and expanded services`.
-7. Confirm GitHub Pages still deploys from the intended branch and root directory.
-8. Visit the live domain and test the homepage, every navigation item, mobile menu, call links, email forms, IABS, CPN, privacy page, sitemap, and GA4 Realtime.
-9. Submit the updated sitemap in Google Search Console.
-10. Ask JBGOODWIN REALTORS® to review the final published advertising and disclosures.
+1. In the GitHub repository root, replace `index.html` with this `index.html`.
+2. In `assets/`, upload `homepage-fix.css` and replace `julie-professional.png` with the supplied portrait if necessary.
+3. Keep the existing `assets/styles.css` and `assets/site.js`; this patch deliberately layers the portrait correction without disturbing sitewide styling or analytics.
+4. The supplied `jules-logo.jpg` can replace the current logo asset only if the repository copy differs from the approved logo.
+5. Commit with `Refine public copy and standalone portrait`.
+6. Test desktop and mobile. The portrait must display in full with no crop, overlay, or text on the image.
